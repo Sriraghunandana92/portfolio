@@ -1,0 +1,236 @@
+aside{
+    width: 250px;
+    height: 563px;
+    border: solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: brown; */
+    background-image: linear-gradient(rgb(2, 2, 78),rgb(74, 2, 74));
+}
+aside img{
+    height: 170px;
+    width: 170px;
+    aspect-ratio: 16/9;
+    border: 4px rgb(254, 253, 253) solid;
+    border-radius: 50%;
+    position: fixed;
+    left: 45px;
+    top: 10px;
+    
+}
+aside img:hover{
+    box-shadow: 3px 3px 10px rgb(8, 8, 8);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;  
+    left: 50px;
+    
+}
+.nav-items ul:hover a{
+    color: rgb(247, 72, 2);
+  }
+.nav-items a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(115, 226, 3);
+    line-height: 40px;
+    filter: blur(1px); 
+    
+}
+.nav-items:hover{
+    text-shadow: 6px 6px 20px black;
+
+}
+.nav-items a:hover {
+    background: linear-gradient(to left top, rgb(233, 82, 7) 20px 30px, rgb(160, 1, 97) 60px, rgb(245, 8, 8) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    filter: blur(0px);
+    font-weight: 700;
+  
+  }
+
+  .nav-items li:hover a{
+    color: yellow;
+  }
+  .bd1{
+    background-image: linear-gradient(to top,rgb(239, 243, 6),rgb(78, 188, 72),rgb(247, 68, 3));
+    height: 3500px;
+
+  }
+  *{
+    margin: 0;
+  }
+  .home{
+    font-size: 35px;
+  }
+
+  .home{
+    position: absolute;
+    left: 270px;
+  }
+  .qualification{
+    position: absolute;
+    left: 270px;
+    top: 500px;
+  }
+
+  .qualification h3{
+    font-size: 30px;
+  }
+  .qualification p{
+    font-size: 25px;
+  }
+  .qualification h3:hover{
+    color: rgb(221, 94, 4);
+  }
+  .skill{
+    position: absolute;
+    left: 270px;
+    top: 1100px;
+
+  }
+  .project{
+    position: absolute;
+    left: 270px;
+    top: 1700px;
+  }
+  .info{
+    position: absolute;
+    left: 270px;
+    top: 2300px;
+  }
+  
+  .contact{
+    position: absolute;
+    left: 270px;
+    top: 2900px;
+  }
+  .home h1:hover{
+    /* background-image: linear-gradient(rgb(143, 5, 143),red,rgb(4, 89, 4)); */
+    color: aqua;
+  }
+  .qualification h1:hover{
+    color: aqua;
+  }
+  .skill h1:hover{
+    color: aqua;
+  }
+  .project h1:hover{
+    color: aqua;
+  }
+  .info h1:hover{
+    color: aqua;
+  }
+  .contact h1:hover{
+    color: aqua;
+  }
+  .image{
+    position: absolute;
+    left: 25px;
+    top: -78px;
+  }
+  .container {
+    position: absolute;
+    left: 10px;
+    top:0px;
+    text-align: center;
+    color: white;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  .logos img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 256px;
+    top: 1200px;
+  }
+  .skill ol{
+    font-size: 25px;
+  }
+  .py{
+    position: absolute;
+    top:1150px;
+    left: 280px;
+  }
+  .sq{
+    position: absolute;
+    top:1150px;
+    left: 500px;
+  }
+  .cc{
+    position: absolute;
+    top:1150px;
+    left: 720px;
+  }
+  .js{
+    position: absolute;
+    top:1150px;
+    left: 940px;
+  }
+  .html{
+    position: absolute;
+    top:1375px;
+    left: 500px;
+  }
+  .css{
+    position: absolute;
+    top:1375px;
+    left: 720px;
+  }
+  .project h2{
+    font-size: 30px;
+  }
+  .project ol{
+    font-size: 25px;
+  }
+  .project p{
+    color: rgb(6, 6, 158);
+    text-decoration: underline;
+  }
+  .contact p{
+    font-size: 25px;
+  }
+  .contact h2:hover{
+    color: rgb(221, 94, 4);
+  }
+  .project h2:hover{
+    color: rgb(221, 94, 4);
+  }
+  .bd1 h2:hover{
+    color: rgb(221, 94, 4) ;
+  }
+  .info ol{
+    font-size: 25px;
+  }
+  .info ul:hover{
+    color: rgb(221, 94, 4);
+    animation: ;
+  }
+  .technique img{
+    height: 175px;
+    width: 175px;
+  }
+  
